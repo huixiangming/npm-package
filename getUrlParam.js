@@ -8,7 +8,7 @@
   传参：'http://www.nowcoder.com?key=1&key=2&key=3&test=4#hehe'
   返回值：{ key: ['1', '2', '3'], test: '4' }
 */
-function getUrlParam(sUrl) {
+module.exports = function getUrlParam(sUrl) {
   let keyArr = sUrl.split('?')[1].split('#')[0].split('&')
   let keyObj = {}
   for (let item of keyArr) {

@@ -11,6 +11,7 @@
 - 安装
 
   - `npm install return-to-ming`
+  - `yarn add return-to-ming`
 
 - 使用示例
 
