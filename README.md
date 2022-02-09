@@ -39,17 +39,17 @@ console.log(
 - API
 
   - multiply：
-    两数精准相乘。
-    例：
-    传参：0.001, 3
-    返回值：0.003
+    - 两数精准相乘。
+    - 例：
+    - 传参：0.001, 3
+    - 返回值：0.003
   - order
-    对象数组按照某个属性数字大小排序，默认升序，传 1 降序
-    例：
-    传参：[{ name: '回向明', age: '22' }, { name: '张三', age: '21' }, { name: '李四', age: '24' }], age, 1
-    返回值：[{ name: '张三', age: '21' }, { name: '回向明', age: '22' }, { name: '李四', age: '24' }]
+    - 对象数组按照某个属性数字大小排序，默认升序，传 1 降序
+    - 例：
+      - 传参：[{ name: '回向明', age: '22' }, { name: '张三', age: '21' }, { name: '李四', age: '24' }], age, 1
+      - 返回值：[{ name: '张三', age: '21' }, { name: '回向明', age: '22' }, { name: '李四', age: '24' }]
   - getUrlParam
-    获取 url 中的参数。
-    例：
-    传参：'http://www.nowcoder.com?key=1&key=2&key=3&test=4#hehe'
-    返回值：{ key: ['1', '2', '3'], test: '4' }
+    - 获取 url 中的参数。
+    - 例：
+      - 传参：'http://www.nowcoder.com?key=1&key=2&key=3&test=4#hehe'
+      - 返回值：{ key: ['1', '2', '3'], test: '4' }
